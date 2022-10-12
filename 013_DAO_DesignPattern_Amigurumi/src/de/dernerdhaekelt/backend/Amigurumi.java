@@ -89,6 +89,15 @@ public class Amigurumi {
 	 * @param primaerSchluessel the primaerSchluessel to set
 	 */
 	public void setPrimaerSchluessel(long primaerSchluessel) {
+		if( primaerSchluessel == 0) {
+			System.out.println("Exeption!");
+			System.exit(-1);
+		} 
+		if(this.primaerSchluessel != 0) {
+			System.out.println("Schlüssel schon gesetzt Exception");
+			System.exit(-1);
+		}
+		
 		this.primaerSchluessel = primaerSchluessel;
 	}
 

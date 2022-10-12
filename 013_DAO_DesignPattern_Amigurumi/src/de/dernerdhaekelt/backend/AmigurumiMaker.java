@@ -106,7 +106,6 @@ public class AmigurumiMaker {
 		}
 	}
 	
-	
 	/**
 	 * @return the allePets
 	 */

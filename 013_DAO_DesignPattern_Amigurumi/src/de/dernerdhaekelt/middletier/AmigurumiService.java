@@ -138,7 +138,7 @@ public class AmigurumiService {
 	}
 	
 	/**
-	 * Kurzform der bereitstellenNachKriterium(Predicate<Amigurumi> kriterium)-Methode
+	 * Kurzform der  : bereitstellenNachKriterium(Predicate<Amigurumi> kriterium)-Methode
 	 * Benutzt die Standard-Methoden: stream(), und filter
 	 * @param kriterium
 	 * @return
